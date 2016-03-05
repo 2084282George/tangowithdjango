@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block title %}Rango{% endblock %}
+
+{% block body_block %}
+{% load staticfiles %}
+        <h1>Rango says...</h1>
+        this is the about page!
+        <img src="{% static "images/rango2.png" %}" alt="Picture of Rango" /> <!-- New line -->
+
+{% endblock %}
